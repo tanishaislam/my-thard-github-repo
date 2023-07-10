@@ -53,6 +53,7 @@
     border: none;
     font-size: 15px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .bg-primary{
@@ -107,6 +108,8 @@
     font-size: 20px;
     margin-bottom: 10px;
 }
+
+/*outhor imge area*/
 .outhor-img{
     width: 70px;
     border-radius: 50%;
@@ -133,7 +136,7 @@
     display: flex;
     align-items: center;
 }
-
+/*appoinment container area*/
 .appoinment-container{
     display: flex;
     justify-content: space-around;
@@ -161,22 +164,56 @@
     margin-left: 20px;
 }
 
+.blog-title{
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
 
+.blog-text{
+    font-size: 25px;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 60px;
+    text-align: center;
+}
+/*cards container area*/
+.card{
+    height: 450px;
+    width: 300px;
+    border: 2px solid rgb(185, 185, 185);
+    text-align: center;
+    border-radius: 5px;
+}
 
+.card-img{
+    height: 300px;
+    width: 300px;
+}
 
+.card h5{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
+.card p{
+    font-size: 17px;
+}
 
+.cards{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    gap: 80px;
+    margin-bottom: 70px;
+}
 
-
-
-
-
-
-
-
-
-
-
+.card:hover{
+    box-shadow: 5px 5px 50px red;
+    color: red;
+}
 
 
 
