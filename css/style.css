@@ -129,15 +129,37 @@
 .top-class-btn{
     margin-bottom: 20px;
 }
+.pnone-call{
+    display: flex;
+    align-items: center;
+}
+
+.appoinment-container{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    background-color: red;
+    border-radius: 20px;
+    margin-top: -70px;
+    align-items: center;
+}
 
 
+.appoinment-desc p{
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+}
 
-
-
-
-
-
-
+.appoinment-btn button{
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.pnone-call h6{
+    margin-left: 20px;
+}
 
 
 
